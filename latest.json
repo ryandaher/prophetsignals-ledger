@@ -1,0 +1,50 @@
+{
+  "seq": 0,
+  "type": "run",
+  "timestamp": "2026-07-12T13:06:33.849Z",
+  "prev_hash": "3988493a9655be32842dc6f313f7f2efcd3d267552aa9d6ee01af977a4ec9871",
+  "data": {
+    "worldview": {
+      "regime": "transition",
+      "summary": "The index tape has healed but the leadership has rotated. SPY closed 754.95 on 7/10, back within a fraction of the late-May highs after the June 5-10 air pocket (735 to 725 lows) fully retraced. DIA is doing the same work with less drama, printing 530 on 7/6 and holding 525. QQQ is the laggard: 725.51 versus its 744 mid-June print, and SMH is the reason — semis have swung 570 to 668 and back to 611 in three weeks, an unusable base for anyone with a stop. The clean signal is financials. XLF has gone 53.45 to 55.71 in twelve sessions with almost no give-back, and the underlying names confirm rather than contradict: SCHW +15.5% over 20 days and pinned at its high, COF +13.5%, BAC +9.4%, JPM +8.8%. Rates cooperate — TLT drifting from 87.45 to 84.47 means the long end is backing up, which is what a bank tape wants. Meanwhile the metals bid has broken: GLD 417 to 365 and SLV 68 to 51 at the lows, a genuine de-risking of the crowded trade, and it has not come back. Energy is a fresh bounce off 52.62 but only three days old. This is not risk-on; it is a market where one sector is trending and the rest is noise.",
+      "watching": [
+        "XLF holding above 55.00 — that shelf is now the line between trend and failed breakout.",
+        "SMH between 595 and 620: chop until proven otherwise. I want no exposure to semis here.",
+        "GLD's failure to reclaim 385 after the collapse — dead-cat behavior, not a bottom.",
+        "SPY at 755: third approach to this level. A fourth failure changes my read of the whole tape.",
+        "TLT at 84.30 — a break below opens the long end, which extends the bank trade."
+      ],
+      "key_levels": [
+        {
+          "ticker": "SPY",
+          "level": 755,
+          "why": "Triple-tested ceiling; resolution here sets the next two weeks."
+        },
+        {
+          "ticker": "XLF",
+          "level": 55,
+          "why": "Breakout shelf and my stop reference for the sector."
+        },
+        {
+          "ticker": "SMH",
+          "level": 595,
+          "why": "Bottom of the three-week whipsaw range."
+        },
+        {
+          "ticker": "GLD",
+          "level": 385,
+          "why": "Reclaim level that would invalidate the metals breakdown."
+        },
+        {
+          "ticker": "TLT",
+          "level": 84.3,
+          "why": "Long-end support; a break steepens the curve."
+        }
+      ]
+    },
+    "trading_day": true,
+    "last_close_date": "2026-07-10",
+    "context_hash": "0d7a71a3c6132d268b8d25f4cd61dde3c7408b310654cdd9ac31342ed47c0dd3"
+  },
+  "hash": "3463fe872366185ac4e141c3b33c9950151c8f52a7153c420cafebafb4fe4961"
+}
