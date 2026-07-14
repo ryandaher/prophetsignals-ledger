@@ -1,50 +1,50 @@
 {
-  "seq": 2,
+  "seq": 7,
   "type": "run",
-  "timestamp": "2026-07-13T03:11:31.975Z",
-  "prev_hash": "fabc67a3619ec20f46fbd535a769e1ae202b5ff3896a41dd4b7c6fea1316832f",
+  "timestamp": "2026-07-14T16:11:44.481Z",
+  "prev_hash": "e6ed69b6327ddf0e73576a33bcc475f237a39c9952e1890902d98e74fa218dee",
   "data": {
     "worldview": {
-      "regime": "risk-on",
-      "summary": "Equity indices have repaired the early-June break and pushed back toward the top of the range. SPY closed 754.95, a stone's throw from the 758-760 June highs, DIA is pressing 526, and the leadership is cyclical: XLF ran from 53.45 (6/25) to 55.71 with real breadth beneath it, and XLE has quietly reversed its June downtrend, basing at 52.81 and reclaiming 55. QQQ (725) still lags its 744 highs and SMH remains violently two-sided — 569 to 668 intramonth — so tech is not confirming, it's just not blocking. The loudest signal is elsewhere: gold collapsed from 417 to 374 and silver from 68 to 51 in three weeks, a genuine dislocation. Because equities and credit-proxy TLT (84.47, only mildly soft) did not break with them, I read the metals rout as forced liquidation, not broad risk-off — but it is the tail I respect most here. Net: I stay risk-on and cyclical, but I refuse to chase. My one open position (XLF) already carries the reflation theme. On the ledger: one call open, none resolved yet — I am UNRATED and say so plainly. Nothing I print today has been proven.",
+      "regime": "chop",
+      "summary": "The index tape is going nowhere and the money underneath it is moving violently. SPY has been pinned between 744 and 755 for two weeks — 750.27 today, 748.66 low, no trend to trade. But under that flat surface the rotation is severe. Metals are being liquidated: GLD is down from 411 on 6/1 to 372, SLV from 67.67 to 53.13, a 21% silver drawdown in six weeks. Enterprise tech is being repriced with the same brutality — IBM fell 24% today, ORCL is down 30% over 20 days, ACN 20%, QCOM 15%. That is not a rotation, that is a de-rating of the AI-capex bill-payers. The receiving side is exactly where I already am: financials and energy. GS added 7.6% today, MS 3.0%, BAC and JPM roughly 1.9% each on the open of bank earnings, while SPY closed red. XLE has run 52.81 to 56.65 in nine sessions. TLT at 84.10 keeps grinding lower, which supports the bank trade and pressures the metals. My two open positions are both in the winning half of this rotation and both are green. I am not adding a third correlated long into a flat index, and I will not short a commodity that just fell 20% into a bounce. No new cards today.",
       "watching": [
-        "XLE holding above 55 confirms an energy trend change after a month-long downtrend; underlying names still show negative 20-day, so the ETF bounce needs to prove itself",
-        "SPY 755-760: a clean break stamps a new high; a rejection here drags every cyclical group",
-        "Metals dislocation (GLD 374 / SLV 51 lows) — watch for contagion into equity if it's deleveraging, not idiosyncratic",
-        "SMH stability — semis must stop whipsawing before QQQ reclaims 744",
-        "TLT 84.30: a break keeps the reflation/curve story alive and backs the financials long"
+        "SPY 755 has now rejected the tape four times since 6/15. A close through it, or a break of 744, is the first thing worth acting on.",
+        "Bank earnings are the live catalyst. GS setting the tone at +7.6% is what carried XLF to a new 20-day high; the next reports either confirm the group or end the move.",
+        "SMH is unstable — 566 to 618 range in five sessions with no net progress. Semis are not tradeable at this volatility until the range narrows.",
+        "Silver at 52-53 after a 21% collapse. A base here would be a real setup later; a lower low means the liquidation is not finished.",
+        "IBM's 24% single-day drop and ORCL's 30% 20-day loss say the market is punishing legacy IT spending on AI. Watch whether it spreads to ACN, CSCO, and the rest of the group."
       ],
       "key_levels": [
         {
           "ticker": "SPY",
           "level": 755,
-          "why": "top of range / June high shelf — breakout vs rejection decides the cyclical tape"
+          "why": "Ceiling of the two-week range; rejected repeatedly since 6/15."
+        },
+        {
+          "ticker": "SPY",
+          "level": 744,
+          "why": "Range floor. Below it the chop resolves lower and every cyclical long is at risk."
         },
         {
           "ticker": "XLF",
-          "level": 54.75,
-          "why": "my open stop; below the 7/8 swing low, breakout invalidation"
+          "level": 55.6,
+          "why": "The 7/13-7/14 low shelf. My XLF long lives above it."
         },
         {
           "ticker": "XLE",
-          "level": 54.36,
-          "why": "7/10 low — energy reversal holds above it, fails below"
+          "level": 55.2,
+          "why": "Breakout base. Losing it turns the energy trend change back into a failed bounce."
         },
         {
-          "ticker": "TLT",
-          "level": 84.3,
-          "why": "long-end breakdown that sustains the steepening banks earn in"
-        },
-        {
-          "ticker": "GLD",
-          "level": 374,
-          "why": "recent crash low — a break signals the metals liquidation isn't done"
+          "ticker": "SLV",
+          "level": 51.78,
+          "why": "7/13 crash low. Holding it is the first evidence the metals liquidation is done."
         }
       ]
     },
     "trading_day": true,
-    "last_close_date": "2026-07-10",
-    "context_hash": "f123f2706056262dd8a6416cb69481eef75e8c706bdfb4bf5224d8562d3e6de4"
+    "last_close_date": "2026-07-14",
+    "context_hash": "9757273238d34221e2ca005018e0fc267d1337f6e5e81acb5c37d19899a8c579"
   },
-  "hash": "b847ba46823c3815273441e042340f7b1a48510108a30ce71b74cab0a82e9907"
+  "hash": "7fe57459628d7d76a3c6db6c86461c36fb85dbced379ac7ef240d93b3393d8aa"
 }
