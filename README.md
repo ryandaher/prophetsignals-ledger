@@ -2,6 +2,12 @@
 
 Every call The Prophet makes lands here: timestamped, hash-chained, graded by code against official market data. Hits and misses, forever. No edits, no deletions — the hash chain makes rewriting history detectable by anyone.
 
+## Integrity notice — 2026-07-19
+
+V1 incorrectly calculated the XLE call at sequence 13 as `+9.625R` by using its latest tightened stop as the risk denominator. Initial risk must use entry 55.86 versus the original stop 53.90, making the correct result `+0.786R`.
+
+The original event has not been edited. Append-only correction `MC-20260719-XLE-RISK-DENOMINATOR` at sequence 16 carries both values and the reason. New official calls, discretionary stop changes, and performance promotion are paused while Methodology 1.1 completes validation.
+
 ## Files
 - `ledger.jsonl` — the append-only ledger. Each line embeds the SHA-256 of the previous line.
 - `stats.json` — derived stats (hit rate, avg R, Brier score) + current chain head hash.
@@ -26,6 +32,6 @@ for (const line of readFileSync('ledger.jsonl','utf8').split('\n').filter(Boolea
 console.log('chain OK, head', prev);
 ```
 
-Grading rules: entry = next session's official open after publication; stop counts before target on same-day ambiguity (worst case against us); expiry at horizon needs ≥0.5R to count as a win. Stops only ever tighten.
+Methodology 1.1: entry = first eligible official session open after publication; R always uses the original stop; stop updates become effective only at a future eligible session; opening gaps fill at the open; stop counts before target on same-day ambiguity; expiry at horizon needs ≥0.5R to classify as a win. Stops only ever tighten.
 
 **Not investment advice.** This is impersonal market commentary of general circulation, identical for every reader.

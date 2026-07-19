@@ -3,9 +3,11 @@
   "resolved": 1,
   "wins": 1,
   "hit_rate": 1,
-  "avg_r": 9.625,
+  "avg_r": 0.786,
   "brier": 0.20249999999999996,
   "rated": false,
-  "head_hash": "2798e44e8de089319e877568fb246918f7606009bc1c64e4ca883f7c428a6d22",
-  "updated": "2026-07-19T03:00:02.843Z"
+  "head_hash": "9f98d6c59e380d4beaea962a516b4e83d80b1ccffcacb34d471de2a9f92168e3",
+  "updated": "2026-07-19T11:41:28.940Z",
+  "methodology_version": "1.1",
+  "performance_under_audit": true
 }
