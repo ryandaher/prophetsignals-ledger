@@ -1,11 +1,11 @@
 {
   "total_calls": 2,
-  "resolved": 0,
-  "wins": 0,
-  "hit_rate": null,
-  "avg_r": null,
-  "brier": null,
+  "resolved": 1,
+  "wins": 1,
+  "hit_rate": 1,
+  "avg_r": 9.625,
+  "brier": 0.20249999999999996,
   "rated": false,
-  "head_hash": "87d640bbe5b4ff765c939a68dc5fcf87c7a618b98d13067e8844ffdc517d2f35",
-  "updated": "2026-07-16T03:00:03.744Z"
+  "head_hash": "2798e44e8de089319e877568fb246918f7606009bc1c64e4ca883f7c428a6d22",
+  "updated": "2026-07-19T03:00:02.843Z"
 }

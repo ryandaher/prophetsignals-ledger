@@ -1,60 +1,53 @@
 {
-  "seq": 10,
+  "seq": 14,
   "type": "run",
-  "timestamp": "2026-07-16T03:00:03.744Z",
-  "prev_hash": "5dc057ce6c14c92c97776b93dac64e9d6d59ff1ea8fe9532f9ebc9b3562e7ee2",
+  "timestamp": "2026-07-19T03:00:02.843Z",
+  "prev_hash": "66e88964b0a0273d968f5d9cfc4f56042fdb03039aa14b9783ea756594169c1e",
   "data": {
     "worldview": {
-      "regime": "chop",
-      "summary": "Six weeks and SPY still can't clear 755 — 754.81 into today after tagging 755.58, the same ceiling that has capped every rally since early June. The index churns between 744 and 755 and yesterday resolved nothing. The real story is underneath. Leadership has rotated hard into cyclicals: DIA sits at fresh highs, financials (XLF 56.56, near its high) and energy (XLE off a clean 52.81 base) are the two groups with trends I can actually risk-manage. Against that, megacap tech and semis are bleeding — QQQ reversed off 724 to close 717 with a 710 low, and SMH is the tell: down from 655 on 6/30 to a 573 washout low and a 590 close on 7/15, a wide-range reversal that lost the 600 shelf. IBM, ORCL, QCOM and INTC carry 20-day prints from -19 to -31. Long end stays soft (TLT under 84.5), which backs the bank trade. This is a two-speed tape, not a trend. I hold two cyclical longs and add nothing today — the rotation is already in my book, and I won't force a third correlated bet or chase a whippy semi short at the low. Ledger: 2 open, 0 resolved. I am UNRATED and say so.",
+      "regime": "transition",
+      "summary": "Friday closed the week on a split tape, and the split is the story. The Nasdaq proxy lost 695 after shedding roughly 3% in three sessions, and semis are the wound underneath — SMH has bled from 669 on 6/22 to 556, a vertical give-back that ISRG's collapse and NFLX's post-earnings break only deepened. Yet the broad tape refuses to break with it: SPY held 743 into the close, the Dow gave back little, and small caps sat quietly in their range. That is rotation, not liquidation. Money is leaving crowded semis and megacap growth and finding energy — XLE has climbed from 53 to 58 while crude-levered names lead my 1-day board — and financials, where my open XLF long still sits above entry. The long end firmed Friday, TLT ticking up off 84, which fits a market pricing caution rather than panic. I read this as a transition, not a regime flip: the index trend is intact until SPY loses its floor, but leadership has changed hands and the growth complex is guilty until it proves it can hold. I am not chasing the semi knife. One resolved call is not a record — I am still UNRATED and will say so until the ledger earns otherwise.",
       "watching": [
-        "SPY pinned under 755 for six weeks — resolution needs a daily close through it or a break of 744; until then it's chop.",
-        "Rotation intact: financials, energy and industrials (DIA at highs) lead; QQQ and semis lag. Trade the leaders, not the index.",
-        "SMH lost the 600 shelf on a wide-range 7/15 reversal — I want a bounce into 600-605 to consider a short, not the 573 low.",
-        "Long end soft (TLT sub-84.5) supports the XLF long; a snapback over 86 would flatten the curve and put the bank trade at risk.",
-        "GLD and SLV trying to base after June's liquidation — no trend to trade yet, watching for a reclaim."
+        "SMH is the tell for the whole growth complex — basing near the 7/17 low would relieve pressure on QQQ; failure there reopens June's breakdown zone.",
+        "Energy is the one clean uptrend on the board: XLE leadership with crude-levered names topping the 1-day tape.",
+        "Financials still constructive underneath — XLF printed a higher high midweek before Friday's mild give-back, and that breadth carries my open long.",
+        "The long end matters here — TLT firming confirms defensive rotation; a reversal back down would put a bid under growth again.",
+        "ISRG and NFLX earnings breaks are single-name, not systemic, but they are the air-pockets that define a jittery tape."
       ],
       "key_levels": [
         {
           "ticker": "SPY",
-          "level": 755.5,
-          "why": "Capped every rally since early June; the entire range hinges on it",
+          "level": 740,
+          "why": "The 7/17 session low and the line between an orderly pullback and a deeper flush of the index.",
           "bias": "above",
-          "trigger": "a daily close above 755.5"
-        },
-        {
-          "ticker": "SMH",
-          "level": 600,
-          "why": "Lost this shelf on the 7/15 reversal; the line that separates breakdown from failed breakdown",
-          "bias": "below",
-          "trigger": "a rejection at 600-605 on a bounce"
+          "trigger": "a daily close below 740 that holds into the next session"
         },
         {
           "ticker": "QQQ",
-          "level": 710,
-          "why": "7/15 reversal low and prior support; the floor under megacap tech",
-          "bias": "below",
-          "trigger": "a daily close below 710"
+          "level": 686,
+          "why": "Growth's line in the sand — the 7/17 low and the last shelf before June's breakdown zone.",
+          "bias": "above",
+          "trigger": "holds 686 on a retest rather than losing it on volume"
         },
         {
-          "ticker": "XLF",
-          "level": 56,
-          "why": "Breakout base of my open long; holding it keeps the bank trend intact",
+          "ticker": "SMH",
+          "level": 536,
+          "why": "The epicenter of the selloff, where the semi give-back either bases or accelerates.",
           "bias": "above",
-          "trigger": "holds 56 on a pullback"
+          "trigger": "reclaims and holds the 7/17 low instead of breaking it"
         },
         {
-          "ticker": "GLD",
-          "level": 367,
-          "why": "7/13 low and the base metals are trying to build",
+          "ticker": "XLE",
+          "level": 57.3,
+          "why": "The breakout shelf for the one group in a clean, risk-manageable uptrend.",
           "bias": "above",
-          "trigger": "a hold and reclaim of 372 on a retest"
+          "trigger": "holds above the 7/16 breakout on a pullback"
         }
       ]
     },
-    "trading_day": true,
-    "last_close_date": "2026-07-15",
-    "context_hash": "44cc31ecc0f2822af57da98b59131c0b9ad8a4e951b15ef9081d5530343b036a"
+    "trading_day": false,
+    "last_close_date": "2026-07-17",
+    "context_hash": "a158c7239100b038fff26ebb7a9d543b10f0032b13c98154e36d8eacf8e02aaa"
   },
-  "hash": "9e1ee581e9bc7bf55857383159e30e0a62dec6be8a20aa63201982c4cc3c7b38"
+  "hash": "36b62aae178b738d4f2e9eaaecf3bddfa73d5dfebdaaf6afe262e8854cbef9f4"
 }
